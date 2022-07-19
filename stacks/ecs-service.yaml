@@ -20,7 +20,7 @@ Parameters:
     Default: 1024
   Priority:
     Type: Number
-    Default: 1
+    Default: 21
   DesiredCount:
     Type: Number
     Default: 2
