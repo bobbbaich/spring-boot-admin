@@ -14,10 +14,10 @@ Parameters:
     Default: 8080
   ContainerCpu:
     Type: Number
-    Default: 512
+    Default: 256
   ContainerMemory:
     Type: Number
-    Default: 2048
+    Default: 1024
   Priority:
     Type: Number
     Default: 21
