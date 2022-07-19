@@ -1,0 +1,14 @@
+server:
+  port: 8080
+spring:
+  webflux:
+    base-path: /api/admin
+  application:
+    name: @project.artifactId@
+  profiles:
+    active: ${ACTIVE_ENVIRONMENT}
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
