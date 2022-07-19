@@ -6,7 +6,7 @@ spring:
   application:
     name: @project.artifactId@
   profiles:
-    active: ${ACTIVE_ENVIRONMENT}
+    active: ${ACTIVE_ENVIRONMENT:local}
 management:
   endpoints:
     web:
